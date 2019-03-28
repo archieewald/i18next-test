@@ -1,5 +1,5 @@
 {
-  "name": "kw-i18next-setup",
+  "name": "translations-setup",
   "version": "1.0.0",
   "description": "Complete internationalization setup for KW next.js apps",
   "main": "./lib/index.js",
