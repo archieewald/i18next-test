@@ -1,0 +1,52 @@
+{
+  "name": "kw-i18next-setup",
+  "version": "1.0.0",
+  "description": "Complete internationalization setup for KW next.js apps",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archieewald/i18next-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archieewald/i18next-test/issues"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "homepage": "https://github.com/archieewald/i18next-test#readme",
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3",
+    "path": "^0.12.7",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**.{js}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "^<rootDir>/src/index.js"
+    ],
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "i18next-scanner": "^2.10.1",
+    "next-i18next": "^0.36.5"
+  }
+}
